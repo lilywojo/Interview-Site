@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 50%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #FFB6C1;
+  color: white;
+  font-size: 22px;
+  padding: 16px 32px;
+}
+</style>
+</head>
+<body>
+
+<h1>Olivia Conte</h1>
+
+ <p> What is your favorite coffee/tea order? </p> 
+  
+  <div class="container">
+    <img src=https://cdn.glitch.com/76db8e31-8740-4ea7-9536-37b4bce642bf%2Fnoun_latte_3683019.svg?1632167482464 class="image">
+    <div class ="middle">
+      <div class="text"> Brown sugar oat milk latte. 
+      </div>
+    </div>
+  </div>
+   
+  
+  <p> What is your favorite concert you've been to? </p> 
+  
+  <div class="container">
+    <img src=https://cdn.glitch.com/76db8e31-8740-4ea7-9536-37b4bce642bf%2Fnoun_concert_3863778.svg?163216801015 class="image">
+    <div class= "middle">
+      <div class= "text"> Ariana Grande.
+      </div>
+    </div>
+  </div>
+
+  
+  <p> Do you have any siblings?  </p>
+  <div  class="container">
+    <img src= https://cdn.glitch.com/76db8e31-8740-4ea7-9536-37b4bce642bf%2Fnoun_sibling_1554418.svg?1632170253851 class="image">
+    <div class="middle">
+      <div class= "text"> Yes, one older brother. 
+      </div>   
+    </div>
+  </div>
+  
+  <p> If you could visit anywhere, where would you go? </p>
+  <div class="container">
+    <img src=https://cdn.glitch.com/76db8e31-8740-4ea7-9536-37b4bce642bf%2Fnoun_Australia_3353551.svg?1632170604587 class="image">
+    <div class= "middle">
+      <div class= "text"> Sydney, Australia. 
+      </div>
+    </div>
+  </div>
+  
+  <p> What is your favorite place you've ever been?</p>
+  <div class="container">
+    <img src= https://cdn.glitch.com/76db8e31-8740-4ea7-9536-37b4bce642bf%2Fnoun_Mexico_3919052.svg?1632171493479 class="image">
+    <div class= "middle">
+      <div class= "text"> Cabo, Mexico. 
+      </div>
+    </div> 
+  </div>
+  
+  <p>Who is your favorite music artist?</p>
+  <div class="container">
+    <img src=https://cdn.glitch.com/76db8e31-8740-4ea7-9536-37b4bce642bf%2Fnoun_Record_2722153.svg?1632171470600 class="image">
+    <div class= "middle">
+      <div class= "text"> Coldplay. 
+      </div>
+    </div>
+  </div>
+ 
+  
+  <p>What TV show are you currently watching?</p>
+<div class="container">
+  <img src=https://cdn.glitch.com/76db8e31-8740-4ea7-9536-37b4bce642bf%2Fnoun_hippie%20van_480883.svg?1632171477163 class="image">
+  <div class="middle">
+    <div class="text">Outer Banks Season 2. </div>
+  </div>
+</div>
+  
+<p>If you could only listen to one song for the rest of your life, what would it be?</p>
+<div class="container">
+  <img src=https://cdn.glitch.com/76db8e31-8740-4ea7-9536-37b4bce642bf%2Fnoun_Music%20Note_1075699.svg?1632171469387 class="image">
+  <div class="middle">
+    <div class="text"> <q>Carry On</q> by Fun.
+    </div>
+  </div>
+  </div>
+  
+  
+  <p>Are you a night person or a morning person?</p>
+  <div class="container">
+    <img src=https://cdn.glitch.com/76db8e31-8740-4ea7-9536-37b4bce642bf%2Fnoun_Night_2978815.svg?1632171473617 class="image">
+    <div class="middle">
+      <div class="text"> Night person, definitely.
+      </div>
+    </div>
+  </div>
+  
+  <p>What is your spirit animal?</p>
+  <div class="container">
+    <img src=https://cdn.glitch.com/76db8e31-8740-4ea7-9536-37b4bce642bf%2Fnoun_Panda_3162463.svg?1632171472117 class="image">
+    <div class="middle">
+      <div class="text"> Panda!
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
